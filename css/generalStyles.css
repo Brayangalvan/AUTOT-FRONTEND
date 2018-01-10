@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing:border-box;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+background: rgb(248,248,248);
+}
+header{
+	bottom: 0;
+	height: 100%;
+	min-height: 369px;
+	min-width: 150px;
+	width: 18%;
+	position: fixed;
+	top: 0;
+	background: rgb(255, 255, 255);
+	box-shadow: 0 10px 30px -12px rgba(0,0,0,.42), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+header nav{
+	height: 100%;
+	width: 100%;
+}
+.Empresa{
+	height: 40%;
+	width: 100%;
+	border-bottom: 2px solid rgb(219, 143, 52) ;
+}
+.Empresa a img {
+height: 50%;
+width: 80%;
+margin: 29% 10%;
+opacity: 1;
+}
+.Empresa a img:hover{
+	opacity: 0.5;
+}
+.menu{ 
+	display: flex;
+	flex-direction: column;
+	height:50%;
+	width: 100%; 
+}
+.menu li {
+	height:18%;
+}
+.menu li a {
+	height: 100%;
+	color: rgb(219, 143, 52);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 3px solid  rgb(219, 143, 52);;
+}
+.menu li a:hover {
+	color:rgb(255, 255, 255);
+	background: rgb(219, 143, 52);
+}
+footer{height: 10%;
+width: 100%}
+footer .redes{
+	text-align: center;
+	height: 60%;
+	width: 100%;
+	font-size: 20px;
+}
+footer .redes a i  {
+	color:rgb(219, 143, 52);
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgb(219, 143, 52);
+    border-radius: 100%;
+    width: 44px;
+}
+.fa-twitter:hover{
+	color: rgb(255, 255, 255);
+	background: rgba(103, 205, 254,0.8);
+	border-width: 0px;
+	
+}
+
+.fa-facebook:hover{
+	color: rgb(255, 255, 255);
+	background: blue;
+	border-width: 0px;
+	
+}
+.fa-envelope-o:hover{
+	color: rgb(255, 255, 255);
+	background: rgb(209, 72, 54);
+	border-width: 0px;
+	
+}
+footer .copyrigth{
+	color: rgb(102,97,91);
+	justify-content: center;
+	display: flex;
+	font-size: 9px;
+	padding: 10px;
+}
+.contenedor{
+	float: right;
+	width: 82%;
+}
+h1{
+	margin-top:3%;
+	font-size: 48px;
+	text-align: center;
+	color: rgb(45, 68, 125);
+}
+.orange{
+	color: rgb(219, 143, 52);
+}
