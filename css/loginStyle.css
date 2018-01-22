@@ -1,7 +1,7 @@
 .form{
     padding: 2%;
-    border: 5px solid  rgb(219, 143, 52);
-    border-radius: 20%;
+    border: 2px solid  rgb(219, 143, 52);
+    border-radius: 5%;
     width: 50%;
     min-width: 386px; 
     margin: 5% auto;
@@ -22,16 +22,17 @@ label {
     display:block;
 }
 input{
+    font-size: 15px;
+}
+.text{
     color: rgb(45, 68, 125);
-    font-size: 18px;
+
     height: 30px;
     width: 90%;
     border: 0px;
-    border-bottom: 2px solid  rgb(219, 143, 52);
-   /* background: rgb(248,248,248);*/
-    margin:2% auto;
+    border-bottom: 1px solid  rgb(219, 143, 52);
 }
-input:focus{
+.text:focus{
     color:rgb(219, 143, 52);
     border-color: rgb(45, 68, 125);
     outline: 0;
@@ -46,11 +47,7 @@ input:focus{
     background: rgb(219, 143, 52);
     color: rgb(255,255,255);
 }
-
-.btn:hover{
-background: rgba(219, 143, 52,0.8);
-color: rgb(255,255,255);
-}
+.btn:hover{background: rgba(219, 143, 52,0.8);}
 .olvidado{
     color:rgb(45, 68, 125);
     text-decoration: underline;
