@@ -95,11 +95,11 @@ footer .redes a i  {
 	border-width: 0px;
 	
 }
-footer .copyrigth{
+.copyrigth{
 	color: rgb(102,97,91);
 	justify-content: center;
 	display: flex;
-	font-size: 9px;
+	font-size: 10px;
 	padding: 10px;
 }
 .contenedor{
